@@ -3,7 +3,6 @@ import {ProductConsumer} from '../context';
 import {Link} from 'react-router-dom';
 import {ButtonContainer} from './Button';
 import { ThemeConsumer } from './context/ThemeContexts';
-
 export default class Details extends Component {
     render() {
         return (

@@ -12,6 +12,7 @@
     "react-scripts": "3.0.1",
     "styled-components": "^4.3.2"
   },
+  
   "scripts": {
     "start": "react-scripts start --openssl-legacy-provider",
     "build": "react-scripts build",
