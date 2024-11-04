@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom/cjs/react-router-dom'
 import { ButtonContainer } from '../Button'
 
 export default function EmptyCart() {
+    
     return (
         <div className="container mt-5">
             <div className="row">

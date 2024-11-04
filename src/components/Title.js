@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { ThemeContext } from './context/ThemeContexts';
-
 class Title extends Component {
   static contextType = ThemeContext;
 

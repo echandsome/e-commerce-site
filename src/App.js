@@ -10,7 +10,6 @@ import Default from "./components/Default";
 import Modal from './components/Modal';
 import { ThemeConsumer } from './components/context/ThemeContexts'
 
-
 function App() {
   return (
     <ThemeConsumer>
