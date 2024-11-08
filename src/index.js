@@ -12,14 +12,14 @@ import { ThemeProvider } from './components/context/ThemeContexts';
 
 ReactDOM.render(
    
- <ProductProvider>
-     <ThemeProvider>
-       <Router>
-            <App />
-           </Router>
-  </ThemeProvider>
- </ProductProvider> ,
-     document.getElementById('root'));
+  <ProductProvider>
+      <ThemeProvider>
+        <Router>
+              <App />
+            </Router>
+    </ThemeProvider>
+  </ProductProvider> ,
+      document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
