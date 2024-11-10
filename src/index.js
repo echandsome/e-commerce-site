@@ -7,11 +7,7 @@ import {ProductProvider} from './context';
 import * as serviceWorker from './serviceWorker';
 import { ThemeProvider } from './components/context/ThemeContexts';
 
-
-
-
-ReactDOM.render(
-   
+ReactDOM.render( 
   <ProductProvider>
       <ThemeProvider>
         <Router>
