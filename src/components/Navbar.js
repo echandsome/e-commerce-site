@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+
 import logo from '../logo.svg';
 import styled from 'styled-components';
 import { ButtonContainer } from './Button';
@@ -8,7 +10,6 @@ import { FaRegMoon } from 'react-icons/fa';
 import { GoSun } from 'react-icons/go';
 import { AiOutlineMenu } from 'react-icons/ai'
 import { ProductConsumer } from '../context';
-import { NavLink } from 'react-router-dom';
 
 class Navbar extends Component {
   static contextType = ThemeContext;
